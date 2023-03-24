@@ -11,6 +11,7 @@ import { useEffect, useState } from "react";
 import Testimonials from "./scenes/Testimonials";
 import { motion } from "framer-motion";
 
+
 function App() {
   const [selectedPage, setSelectedPage] = useState("home");
   const [isTopOfPage, setIsTopOfPage] = useState(true);
@@ -59,8 +60,9 @@ function App() {
         >
           <MySkills />
         </motion.div>
+        
       </div>
-      <LineGradient />
+
       <div className="w-5/6 mx-auto">
         <motion.div
           margin="0 0 -200px 0"

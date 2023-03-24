@@ -1,0 +1,101 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    grid-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .logo img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+.logo:hover {
+    transform: scale(1.5);
+}
+
+.logo-1 {
+    background-image: url('../assets/logos/logo1.png');
+}
+
+.logo-2 {
+    background-image: url('../assets/logos/logo2.png');
+}
+
+.logo-3 {
+    background-image: url('../assets/logos/logo3.png');
+}
+
+.logo-4 {
+    background-image: url('../assets/logos/logo4.png');
+}
+.logo-5 {
+    background-image: url('../assets/logos/logo5.png');
+}
+.logo-6 {
+    background-image: url('../assets/logos/logo6.png');
+}
+.logo-7 {
+    background-image: url('../assets/logos/logo7.png');
+}
+.logo-8 {
+    background-image: url('../assets/logos/logo8.png');
+}
+.logo-9 {
+    background-image: url('../assets/logos/logo9.png');
+}
+.logo-10 {
+    background-image: url('../assets/logos/logo10.png');
+}
+.logo-11 {
+    background-image: url('../assets/logos/logo11.png');
+}
+.logo-12 {
+    background-image: url('../assets/logos/logo12.png');
+}
+.logo-13 {
+    background-image: url('../assets/logos/logo13.png');
+}
+.logo-14 {
+    background-image: url('../assets/logos/logo14.png');
+}
+.logo-15 {
+    background-image: url('../assets/logos/logo15.png');
+}
+.logo-16 {
+    background-image: url('../assets/logos/logo16.png');
+}
+.logo-17 {
+    background-image: url('../assets/logos/logo17.png');
+}
+.logo-18 {
+    background-image: url('../assets/logos/logo18.png');
+}
+.logo-19 {
+    background-image: url('../assets/logos/logo19.png');
+}
+.logo-20 {
+    background-image: url('../assets/logos/logo20.png');
+}
+.logo-21 {
+    background-image: url('../assets/logos/logo21.png');
+}
+.logo-22 {
+    background-image: url('../assets/logos/logo22.png');
+}
+

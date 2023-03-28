@@ -15,7 +15,7 @@ const projectVariant = {
   visible: { opacity: 1, scale: 1 },
 };
 
-const Project = ({ title }) => {
+const Project = ({ title, subtitle }) => {
   const overlayStyles = `absolute h-full w-full opacity-0 hover:opacity-90 transition duration-500
     bg-grey z-30 flex flex-col justify-center items-center text-center p-16 text-deep-blue`;
   const projectTitle = title.split(" ").join("-").toLowerCase();
@@ -24,14 +24,13 @@ const Project = ({ title }) => {
     <motion.div variants={projectVariant} className="relative">
       <div className={overlayStyles}>
         <p className="text-2xl font-playfair">{title}</p>
-        <p className="mt-7">
-         Projects.
-        </p>
+        <p className="mt-7">{subtitle}</p>
       </div>
-      <img src={`../assets/${projectTitle}.jpeg`} alt={projectTitle} />
+      <img src={`../assets/${projectTitle}.png`} alt={projectTitle} />
     </motion.div>
   );
 };
+
 
 const Projects = () => {
   return (
@@ -77,17 +76,17 @@ const Projects = () => {
           >
             BEAUTIFUL USER INTERFACES
           </div>
-          <Project title="Project 1" />
-          <Project title="Project 2" />
+          <Project title="NowPlaying OBS overlay" subtitle="NowPlaying app overlaying" />
+          <Project title="NowPlaying OBS" subtitle="NowPlaying overlay app for OBS"/>
 
           {/* ROW 2 */}
-          <Project title="Project 3" />
-          <Project title="Project 4" />
-          <Project title="Project 5" />
+          <Project title="Resize" subtitle="Resize Javascript app" />
+          <Project title="Clean Design" subtitle="Design Process" />
+          <Project title="Stunning Album Posters" subtitle="Custom Album Art Posters"/>
 
           {/* ROW 3 */}
-          <Project title="Project 6" />
-          <Project title="Project 7" />
+          <Project title="Starting Soon Art" subtitle="Stream Art Assets"/>
+          <Project title="NowPlaying Spotify Integration" subtitle="NowPlaying integration with Spotify app"/>
           <div
             className="flex justify-center text-center items-center p-10 bg-blue
               max-w-[400px] max-h-[400px] text-2xl font-playfair font-semibold"

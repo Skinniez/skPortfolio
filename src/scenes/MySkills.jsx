@@ -25,7 +25,7 @@ const MySkills = () => {
           </p>
           <LineGradient width="w-1/3" />
           <p className="mt-10 mb-7">
-            Full stack software developement with a desire to never stop learning. 
+            Full stack software development with a desire to never stop learning. 
             JavaScript ES6, HTML5, Node.js, Bootstrap, Mocha, Chai, React, Jest, Express.js, Knex.js, MongoDB, Typescript, Photoshop, After Effects, Premiere Pro, Procreate, OBSstudio.
           </p>
         </motion.div>
